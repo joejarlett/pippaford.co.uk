@@ -1,13 +1,11 @@
 <script lang="ts">
 	import './layout.css';
-	import { page } from '$app/state';
 	import { faqs, services, site } from '$lib/content';
 	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
+	import CrisisNotice from '$lib/components/CrisisNotice.svelte';
 
 	let { children } = $props();
-
-	const canonical = $derived(new URL(page.url.pathname, site.url).href);
 
 	/** Practitioner + service structured data, so search engines can build a rich result. */
 	const schema = {
@@ -76,10 +74,6 @@
 </script>
 
 <svelte:head>
-	<title>{site.title}</title>
-	<meta name="description" content={site.description} />
-	<link rel="canonical" href={canonical} />
-
 	<!--
 		The "P" is the Instrument Serif glyph converted to a vector path, so it
 		renders identically everywhere rather than depending on the viewer having
@@ -101,19 +95,7 @@
 		crossorigin="anonymous"
 	/>
 
-	<meta property="og:type" content="website" />
-	<meta property="og:site_name" content={site.title} />
-	<meta property="og:title" content={site.title} />
-	<meta property="og:description" content={site.description} />
-	<meta property="og:url" content={canonical} />
-	<meta property="og:image" content="{site.url}/images/pippa-portrait-1200.webp" />
-	<meta property="og:locale" content="en_GB" />
-
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content={site.title} />
-	<meta name="twitter:description" content={site.description} />
-	<meta name="twitter:image" content="{site.url}/images/pippa-portrait-1200.webp" />
-
+	<!-- Per-page title, description, canonical and OG tags come from <Seo />. -->
 	{@html `<script type="application/ld+json">${JSON.stringify(schema)}</script>`}
 </svelte:head>
 
@@ -123,4 +105,5 @@
 	{@render children()}
 </main>
 
+<CrisisNotice />
 <Footer />

@@ -1,17 +1,33 @@
-import { site } from '$lib/content';
+import { services, site } from '$lib/content';
 
 export const prerender = true;
 
-/** Routes to advertise to crawlers. Add entries here as new pages are created. */
-const routes = ['/'];
+/**
+ * Routes advertised to crawlers. Static pages are listed explicitly; the
+ * service pages are derived so a new entry in `services.items` appears here
+ * automatically rather than being forgotten.
+ */
+const staticRoutes = [
+	{ path: '/', priority: '1.0' },
+	{ path: '/about', priority: '0.8' },
+	{ path: '/approach', priority: '0.8' },
+	{ path: '/services', priority: '0.8' },
+	{ path: '/supervision', priority: '0.7' },
+	{ path: '/contact', priority: '0.7' }
+];
 
 export function GET() {
+	const routes = [
+		...staticRoutes,
+		...services.items.map((s) => ({ path: `/services/${s.slug}`, priority: '0.9' }))
+	];
+
 	const urls = routes
 		.map(
-			(route) => `	<url>
-		<loc>${site.url}${route === '/' ? '/' : route}</loc>
+			({ path, priority }) => `	<url>
+		<loc>${site.url}${path}</loc>
 		<changefreq>monthly</changefreq>
-		<priority>${route === '/' ? '1.0' : '0.7'}</priority>
+		<priority>${priority}</priority>
 	</url>`
 		)
 		.join('\n');
