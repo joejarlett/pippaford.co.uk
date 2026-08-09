@@ -13,18 +13,16 @@
 
 <PageHeader title={approach.title} lede={approach.lede} />
 
+<!-- Just the section headings as jump links; no introductory paragraph. -->
 <section class="bg-mist">
-	<div class="mx-auto max-w-6xl px-6 py-20 md:py-28">
-		<p class="display max-w-4xl text-2xl text-ink sm:text-3xl">{approach.intro}</p>
-
-		<!-- In-page navigation: four long sections is enough to warrant it. -->
-		<nav aria-label="On this page" class="mt-12 border-t border-line pt-6">
-			<ul class="flex flex-wrap gap-x-6 gap-y-2">
+	<div class="mx-auto max-w-6xl px-6 py-10 md:py-14">
+		<nav aria-label="On this page">
+			<ul class="flex flex-wrap gap-x-8 gap-y-3">
 				{#each approach.items as item (item.slug)}
 					<li>
 						<a
 							href="#{item.slug}"
-							class="text-sm text-ink-soft underline decoration-line underline-offset-4 transition-colors hover:text-ink"
+							class="font-serif text-xl text-ink underline decoration-blush decoration-2 underline-offset-6 transition-opacity hover:opacity-70 md:text-2xl"
 						>
 							{item.title}
 						</a>

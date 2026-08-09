@@ -105,9 +105,7 @@ export const about = {
 
 export const approach = {
 	title: 'My approach',
-	lede: 'An integrative practice, working creatively across modalities rather than from a single model.',
-	intro:
-		'The four strands below inform that work in differing measure, according to what each client needs.',
+	lede: 'An integrative practice, working creatively across modalities in a person-centred way.',
 
 	items: [
 		{
