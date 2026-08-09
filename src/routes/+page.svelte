@@ -110,18 +110,26 @@
 
 	<div class="mt-12 grid gap-10 md:grid-cols-3 md:gap-8">
 		{#each services.items as service (service.slug)}
+			<!--
+				Grid items stretch to the tallest card, so `mt-auto` on the image
+				wrapper pushes every image to the bottom of its column. The uneven
+				paragraph lengths absorb into the gap above rather than shunting
+				the images out of line with each other.
+			-->
 			<article class="reveal flex flex-col">
 				<h3 class="text-lg font-semibold text-ink">{service.title}</h3>
 				<p class="mt-3 text-sm leading-relaxed text-ink/90">{service.body}</p>
-				<Img
-					base={service.image.base}
-					widths={service.image.widths}
-					width={service.image.width}
-					height={service.image.height}
-					alt={service.alt}
-					sizes="(min-width: 768px) 33vw, 100vw"
-					class="mt-8 aspect-3/4 w-full object-cover"
-				/>
+				<div class="mt-auto pt-8">
+					<Img
+						base={service.image.base}
+						widths={service.image.widths}
+						width={service.image.width}
+						height={service.image.height}
+						alt={service.alt}
+						sizes="(min-width: 768px) 33vw, 100vw"
+						class="aspect-3/4 w-full object-cover"
+					/>
+				</div>
 			</article>
 		{/each}
 	</div>
