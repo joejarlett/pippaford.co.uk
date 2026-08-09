@@ -105,9 +105,9 @@ export const about = {
 
 export const approach = {
 	title: 'My approach',
-	lede: 'Four things shape how I work. They are not really separate methods, more four different ways of paying attention — and most sessions draw on more than one of them.',
+	lede: 'An integrative practice, working creatively across modalities rather than from a single model.',
 	intro:
-		'People usually want to know what a therapist actually does. Not the label, but what the words on a website turn into once you are in the room, or on the call. So here is an honest account of what I draw on and what each part of it brings.',
+		'The four strands below inform that work in differing measure, according to what each client needs.',
 
 	items: [
 		{
@@ -130,13 +130,11 @@ export const approach = {
 				}
 			],
 			title: 'Dramatherapy',
-			summary:
-				'Using image, metaphor, story and play, so you can get at the difficult thing from a bearable distance.',
+			summary: 'The clinical application of drama and theatre processes as the therapeutic medium.',
 			body: [
-				'Dramatherapy is a recognised allied health profession here in the UK, regulated by the HCPC — which is a very formal way of saying that I use story and drama as the actual therapy, not as a warm-up to it. Character, role, metaphor, image, play, movement. That is the material we work in.',
-				'Go straight at something painful and it can simply flatten you. Come at it through a story, or an image, or a character, and you get a bit of separation — far enough away to be bearable, close enough to still matter. So a child who cannot tell you what is frightening at home will often show you in play. And an adult who cannot find words for grief will find an image for it, and then the image does the talking. Therapists call that aesthetic distance.',
-				'None of this is performance, by the way. You do not need to be able to act and you do not need to be any good at art — genuinely, it makes no difference at all. What we are doing is getting the thing out where we can both look at it, instead of you carrying it round alone and unseen. Some people work almost entirely in words and only reach for metaphor now and then. For others the creative work ends up carrying most of the weight. Both are completely fine.',
-				'And none of it stops working online. Image, story, writing, drawing, whatever objects you have to hand — it all translates to video far better than people expect. Some people find it steadier, in fact, doing this from their own space.'
+				'Dramatherapy is an allied health profession, regulated in the United Kingdom by the Health and Care Professions Council. It is the deliberate clinical application of the therapeutic properties of drama and theatre: action-based methods drawing on role, character, metaphor, image, story and movement to support creativity, imagination, insight and psychological development.',
+				'Working through dramatic form allows material to be approached at a manageable distance. Representing an experience in image or in role makes it available for examination without requiring direct confrontation, which is of particular value where the experience is not yet accessible in words, or where direct disclosure would overwhelm.',
+				'No performance experience or artistic ability is required, and the method adapts well to remote delivery.'
 			]
 		},
 		{
@@ -153,12 +151,11 @@ export const approach = {
 			],
 			title: 'Eco-depth psychology',
 			summary:
-				'Taking seriously that none of us struggles in isolation from the living world we belong to.',
+				'Depth psychology combined with applied ecopsychology, treating psychological and ecological health as interdependent.',
 			body: [
-				'Depth psychology is interested in what is going on underneath the everyday — the dreams, the images, the patterns, the stories you inherited without ever choosing them. Ecopsychology adds one more thing: we are not sealed off from the living world, and living as though we are costs us something. You already know this, incidentally. It is why a week indoors under strip lighting feels different from an hour outside, and why that difference is not trivial.',
-				'Eco-depth practice puts those two together. Nature is not scenery here, and it is not a wellbeing add-on — it is a genuine participant in the work. Nature as co-therapist, some people call it. So the attention widens out beyond just you, to everything you are bound up with, including the more-than-human.',
-				'In practice that might mean working with a sense of yourself as ecological rather than islanded. Noticing how your body settles near weather, water, trees, open ground. Or leaning into the cycles that are going on out there anyway — decay, dormancy, regeneration — as a way of thinking about a stretch of life that feels stuck, or finished.',
-				'It also means there is somewhere to put climate grief and ecological anxiety. I see more of this every year, particularly in younger people, and they are usually told they are catastrophising, or being irrational. They are not. They are responding in proportion to something that is actually happening, and it throws up real questions about meaning, about mortality, about what it is reasonable to hope for. Therapy cannot answer those questions. What it can do is stop you carrying them on your own.'
+				'Eco-depth practice combines depth psychology with applied ecopsychology. Depth psychology attends to material below ordinary awareness — image, dream, inherited pattern. Ecopsychology holds that psychological health cannot be considered separately from the health of the wider living systems a person belongs to.',
+				'The approach proceeds from a One Health premise: individual wellbeing, community health and ecological vitality are treated as interdependent rather than distinct domains. Clinically, this widens the frame beyond the individual to include their relationship with the natural world, and establishes the natural world as an active participant in the therapeutic process rather than a setting for it.',
+				'It also provides a considered basis for working with ecological grief and climate-related distress. These presentations are increasingly common, particularly among younger people, and are properly understood as proportionate responses to material circumstances rather than as pathology.'
 			]
 		},
 		{
