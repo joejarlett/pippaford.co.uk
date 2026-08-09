@@ -21,15 +21,13 @@
 				url: site.url,
 				email: site.email,
 				image: `${site.url}/images/pippa-portrait-1200.webp`,
-				address: {
-					'@type': 'PostalAddress',
-					addressLocality: site.locality,
-					addressCountry: site.country
+				// Remote-first practice: no street address, served nationally.
+				areaServed: { '@type': 'Country', name: site.areaServed },
+				availableChannel: {
+					'@type': 'ServiceChannel',
+					name: site.deliveryModes,
+					serviceUrl: site.url
 				},
-				areaServed: [
-					{ '@type': 'City', name: site.locality },
-					{ '@type': 'AdministrativeArea', name: site.region }
-				],
 				availableLanguage: 'English',
 				founder: { '@id': `${site.url}/#pippa` },
 				makesOffer: services.items.map((s) => ({

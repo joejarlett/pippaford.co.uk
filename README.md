@@ -60,7 +60,7 @@ as the Squarespace build.
 
 ## What to do next
 
-See **[SUGGESTIONS.md](SUGGESTIONS.md)** for a prioritised list — copy, local SEO,
+See **[SUGGESTIONS.md](SUGGESTIONS.md)** for a prioritised list — copy, search positioning,
 contact routes, and the legal pages needed before a form goes live.
 
 ## SEO notes
@@ -72,9 +72,10 @@ generated `sitemap.xml`, and JSON-LD (`ProfessionalService` + `Person` + `FAQPag
 
 1. **Write more copy.** The whole site is currently ~500 words. That is the single
    biggest thing holding back search rankings.
-2. **State a location.** The site never says where Pippa practises. Nearly all searches
-   for a therapist are local ("EMDR therapist in _____"). Adding a town/region — and a
-   `LocalBusiness` address in the JSON-LD — is the highest-value change available.
+2. **Lead on "online and telephone".** The practice is remote-first and UK-wide, so there
+   is deliberately no locality anywhere in the site or its structured data. That reach is
+   currently only stated in the contact section and footer — the hero does not mention it
+   at all, and it is the first thing a distant client needs to know.
 3. **Then split into pages.** Once there is enough copy, promote each service to its own
    route (`/emdr`, `/ecotherapy`, `/individual-therapy`, `/about`, `/contact`). The
    content module is structured to make this a small change. Splitting _before_ there is

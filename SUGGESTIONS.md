@@ -10,9 +10,9 @@ combined — they are about what the site _says_, not how it is built.
 The site is roughly **500 words in total**. That is the main thing holding back search
 rankings, and no amount of engineering substitutes for it.
 
-For context, therapist sites that rank well for competitive local terms typically carry
-1,500–3,000 words across several pages. Pippa has the expertise to fill that; it needs
-writing time, not development time.
+For context, therapist sites that rank well typically carry 1,500–3,000 words across
+several pages. Pippa has the expertise to fill that; it needs writing time, not
+development time.
 
 **Target: ~400–600 words per service.** Useful prompts for each:
 
@@ -35,25 +35,41 @@ writing time, not development time.
 
 ---
 
-## 2. Local SEO — Bristol is now in the site, but the work isn't done
+## 2. Search positioning — remote-first, not local
 
-Bristol is now in the title, meta description, contact section, footer and structured
-data (`PostalAddress` + `areaServed`). That was the highest-value single change. To
-actually rank locally:
+The practice runs online and by telephone, so it serves the whole UK. The site is written
+that way: no locality, `areaServed` set to United Kingdom in the structured data, and no
+`PostalAddress`.
 
-- **Google Business Profile.** Free, and the largest remaining lever for local search.
-  It feeds the map pack, which sits above organic results. A therapist can register
-  as a service-area business without publishing a home address.
-- **Name the specific areas served.** "Bristol and surrounding areas" is vague. Naming
-  real places — Clifton, Bedminster, Southville, Bishopston, Long Ashton, Portishead,
-  Nailsea, Chew Valley — matches how people actually search. Only list places Pippa
-  genuinely covers.
-- **Name the outdoor locations** used for walk-and-talk sessions (Ashton Court, Leigh
-  Woods, Blaise Castle, the Downs, if accurate). This is distinctive, locally specific,
-  and almost nobody else will have that copy.
-- **Directory listings.** Counselling Directory, Psychology Today, BACP/HCPC listings,
-  BAAT/BADth. These carry real weight for therapists and are how many clients search in
-  the first place.
+This is a harder SEO position than a local one, and worth being clear-eyed about. "Therapist
+in ⟨town⟩" has modest competition; "online therapist UK" is contested nationally by large
+directories and venture-funded platforms. Ranking on generic national terms is not a
+realistic target. What _is_ realistic:
+
+- **Compete on specificity, not volume.** Pippa's differentiators are genuinely unusual —
+  dramatherapy, Eco-Depth practice, creative clinical supervision, EMDR delivered online.
+  "Online dramatherapy UK" or "creative arts psychotherapy online" have far less competition
+  than "online therapy" and attract people who want precisely this. Target those.
+- **Directory listings are likely to out-perform the site itself**, and that is fine.
+  Counselling Directory, Psychology Today, BACP/HCPC registers, BADth. Most clients search
+  these directly rather than via Google, and the profiles rank well on their own. Ensure
+  each links back to the site.
+- **Say "online and telephone" prominently and early.** Someone searching from anywhere in
+  the UK needs to know within seconds that distance is not a barrier. This is currently only
+  in the contact section and footer — the hero says nothing about it.
+- **Skip Google Business Profile.** It is built around local map-pack results, which is not
+  where a UK-wide remote practice competes.
+
+### One thing to check with Pippa
+
+The FAQ answer to "How are sessions facilitated?" mentions **video** and **walk & talk**, but
+not **telephone** — yet phone is one of the two main ways she works. That answer is Pippa's
+own copy so it has not been rewritten here, but it should be updated, and it is the clearest
+example of the site under-selling what is actually offered.
+
+Related: if walk & talk sessions still run in person, they happen _somewhere_, and the site
+now gives no geographic signal at all. Worth deciding whether that offer is still active. If
+it is, it needs a location to be findable; if it is not, the FAQ should drop it.
 
 ---
 
@@ -113,9 +129,11 @@ Already in place: prerendered static HTML, responsive images, self-hosted fonts,
 canonical, Open Graph, sitemap, `robots.txt`, JSON-LD, WCAG AA contrast, reduced-motion
 support.
 
+Also done since: a `/home` → `/` redirect, a custom 404 page, security and cache headers,
+and a favicon built from the site's own typeface.
+
 Remaining:
 
-- **Redirect `/home` → `/`.** The old Squarespace site served both URLs.
 - **Verify in Google Search Console** after the DNS cutover, and submit the sitemap.
 - **Test the structured data** with Google's Rich Results Test — the `FAQPage` schema can
   earn expandable results directly in the search listing.
@@ -130,9 +148,12 @@ Remaining:
 
 ## Deliberately not recommended
 
-- **A page per Bristol suburb** ("EMDR therapist in Clifton", "…in Bedminster", …).
-  This is a common SEO tactic and it is a doorway-page pattern Google penalises. It also
-  reads as spammy to exactly the sort of careful client Pippa wants.
+- **A page per town** ("EMDR therapist in ⟨town⟩", repeated across the country).
+  This is a common SEO tactic and it is the doorway-page pattern Google penalises. It also
+  reads as spammy to exactly the sort of careful client Pippa wants — and it would be
+  misleading for a practice that works remotely rather than in those places.
+- **Chasing generic national terms.** "Online therapy UK" is contested by directories and
+  funded platforms with budgets this site will not match. Specificity beats volume here.
 - **Heavier animation.** The current reveal is deliberately restrained. Clients arriving
   on a therapy site may be anxious or motion-sensitive; the site should feel calm.
 - **A chatbot.** Wrong register entirely for this practice.

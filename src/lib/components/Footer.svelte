@@ -22,8 +22,8 @@
 						<dt class="font-semibold">HCPC registered no. {site.hcpc}</dt>
 					</div>
 					<div>
-						<dt class="font-semibold">Practising in:</dt>
-						<dd class="mt-1 text-ink/90">{site.region}, plus online sessions UK-wide</dd>
+						<dt class="font-semibold">Sessions:</dt>
+						<dd class="mt-1 text-ink/90">{site.deliveryModes}</dd>
 					</div>
 				</dl>
 			</div>
