@@ -76,9 +76,10 @@ considering that it could be counterproductive". Hedging reads as evasion to an 
 reader. Where genuine uncertainty exists, name it plainly instead: "each person's journey
 is different".
 
-**Answer the reader's real questions.** What happens in a session, how long, how much,
-will this suit me, what if I get upset, who will know. These matter more than modality
-descriptions, and they are still under-covered on this site.
+**Answer the reader's real questions.** What happens in a session, will this suit me,
+what if I get upset, who will know, what if it is not working. These matter more than
+modality descriptions and are still under-covered. (Fees and session length are the
+exception — see Decisions.)
 
 **Say what something is not.** Pre-empting misconceptions is high value here: "it is not
 a yoga class", "no artistic ability is required", "it has nothing to do with being
@@ -156,12 +157,55 @@ seriously. Warmth yes, lightness no.
 
 ---
 
-## Open questions
+## Decisions
 
-Answering these would sharpen the guideline — see the notes raised alongside it.
+Settled with Joe, August 2026. Treat these as binding unless revisited.
 
-- Priority order of readers: self-referring adult, parent seeking help for a child, or
-  practitioner seeking supervision?
-- How directly should the site name distress, rather than describing the work abstractly?
-- How far into spiritual or soul-adjacent language is Pippa comfortable going?
-- Should fees, session length and availability appear on the site?
+### The reader is an adult referring themselves
+
+Write for someone seeking therapy for themselves, most likely for the first time.
+Everything else is secondary and gets its own signposted place: parents on the FAQ and
+the "who I work with" section, practitioners on `/supervision`. When a sentence would
+serve two readers less well than it serves one, serve the self-referring adult.
+
+### Name distress in the FAQ, not in the body copy
+
+Main pages describe **the work**, not the person reading. Do not open a page by telling
+someone what they are probably feeling — it presumes, and a reader who does not recognise
+themselves feels described rather than met.
+
+The concrete situations live in two places instead: the FAQ, and the "Often helpful for"
+lists on each therapy page. That is where a reader goes looking to check whether they
+qualify, so that is where recognition belongs.
+
+> Body copy: "Therapy offers a regular, confidential hour to think about what is happening
+> and why, at a pace you set."
+>
+> "Often helpful for": "Anxiety, low mood and periods of feeling stuck."
+
+### Spiritual language: keep what is genuinely hers, always glossed
+
+Depth, Jungian, ritual, threshold, the ecological self — these reflect how Pippa actually
+works and stripping them out would misrepresent the practice. Keep them.
+
+But never leave one standing alone. Pair every such term with a plain-language gloss in
+the same breath, so a sceptical reader has something solid to hold:
+
+> …ritual work to mark a transition
+>
+> The natural world is treated as a genuine participant in the therapy, **not a pleasant
+> setting for it.**
+
+The test is not whether a phrase sounds spiritual. It is whether a reader who does not
+share that frame can still tell what would actually happen in a session.
+
+### Fees and session length stay off the site
+
+Both are handled in the enquiry conversation, not published. Do not add a fees page, and
+do not state a price or a session length in copy.
+
+This is a deliberate trade and worth naming: it is the most-searched missing information
+on any therapist site, and its absence does cost enquiries. Since the site cannot answer
+the question, it must make **asking** feel easy and unembarrassing — which puts more
+weight on `/contact`. Make plain that a first email can be two lines, that questions about
+cost are welcome and normal, and roughly when to expect a reply.

@@ -412,6 +412,7 @@ export const contact = {
 	body: 'I work with clients across the UK through secure online and telephone sessions. If you have a question, or would like to arrange an initial conversation, please get in touch by email.',
 	detail: [
 		'There is no need to explain everything in a first email. A sentence or two about what you are looking for is plenty, and we can take it from there.',
+		'Practical questions are welcome and expected — what sessions cost, how long they last, how often we would meet, whether I have availability. Please just ask. Nobody has ever asked me something unreasonable at this stage.',
 		'I aim to respond within a few working days. If you have not heard back within a week, please do send a follow-up — emails occasionally go astray.'
 	],
 	crisis: {

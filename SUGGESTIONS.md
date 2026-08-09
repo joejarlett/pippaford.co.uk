@@ -20,12 +20,14 @@ development time.
 - Who is this approach suited to — and who is it _not_ suited to?
 - What does the evidence base say?
 - What might someone notice changing after a few months?
-- What does it cost, and how long is a session?
 
 **Missing entirely, and all commonly searched:**
 
-- **Fees and session length.** Currently absent. This is one of the most common things
-  people look for, and its absence causes drop-off — people assume the worst.
+- **Fees and session length** are deliberately not published — decided August 2026, see
+  VOICE.md. Worth restating the cost of that choice: it is among the most-searched
+  information on any therapist site, and its absence does lose enquiries. The mitigation
+  is to make asking easy, which puts the weight on `/contact` making clear that questions
+  about cost are welcome and expected.
 - **Availability** — waiting list, or taking new clients?
 - **What to expect from a first contact**, to lower the barrier to emailing.
 - **Cancellation policy.**
