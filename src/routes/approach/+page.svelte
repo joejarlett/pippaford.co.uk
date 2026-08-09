@@ -3,6 +3,7 @@
 	import Seo from '$lib/components/Seo.svelte';
 	import PageHeader from '$lib/components/PageHeader.svelte';
 	import Prose from '$lib/components/Prose.svelte';
+	import Img from '$lib/components/Img.svelte';
 </script>
 
 <Seo
@@ -48,6 +49,16 @@
 					<p class="mt-4 text-sm leading-relaxed {i % 2 === 0 ? 'text-white/70' : 'text-ink-soft'}">
 						{item.summary}
 					</p>
+
+					<Img
+						base={item.image.base}
+						widths={item.image.widths}
+						width={item.image.width}
+						height={item.image.height}
+						alt={item.alt}
+						sizes="(min-width: 768px) 18rem, 100vw"
+						class="mt-8 aspect-3/2 w-full object-cover"
+					/>
 				</div>
 
 				<Prose paragraphs={item.body} tone={i % 2 === 0 ? 'light' : 'ink'} class="max-w-3xl" />

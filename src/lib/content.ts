@@ -51,7 +51,8 @@ export const hero = {
 	subheading: 'Creative Arts Psychotherapy',
 	intro:
 		'With years of clinical experience across diverse settings, I offer client-centred therapy that integrates EMDR, somatic, creative and nature-based approaches, in a safe, compassionate space for growth and healing.',
-	image: { base: '/images/hero-bg', widths: [800, 1400, 1792], width: 1792, height: 1024 }
+	image: { base: '/images/hero-bg', widths: [800, 1400, 1792], width: 1792, height: 1024 },
+	imageAlt: 'A still lake at sunrise, mist lying between distant hills'
 } as const;
 
 /* ========================================================================
@@ -111,6 +112,13 @@ export const approach = {
 	items: [
 		{
 			slug: 'dramatherapy',
+			image: {
+				base: '/images/approach-dramatherapy',
+				widths: [600, 1200],
+				width: 1200,
+				height: 800
+			},
+			alt: 'A seed head caught against a low sun, its outline dissolving into the light',
 			title: 'Dramatherapy',
 			summary:
 				'Working through image, metaphor, story and play, so that difficult material can be approached at a safe distance.',
@@ -123,6 +131,8 @@ export const approach = {
 		},
 		{
 			slug: 'eco-depth-psychology',
+			image: { base: '/images/approach-eco-depth', widths: [600, 1200], width: 1200, height: 800 },
+			alt: 'Catkins and green berries arranged as a radiating mandala on wet ground',
 			title: 'Eco-depth psychology',
 			summary:
 				'Taking seriously that human distress does not occur in isolation from the living world we are part of.',
@@ -135,6 +145,8 @@ export const approach = {
 		},
 		{
 			slug: 'somatic-approaches',
+			image: { base: '/images/approach-somatic', widths: [600, 1200], width: 1200, height: 800 },
+			alt: 'A hand resting on wet shingle at the edge of the sea, foam breaking around it',
 			title: 'Somatic approaches',
 			summary: 'Attending to the body and the nervous system, not only to thoughts and narrative.',
 			body: [
@@ -146,6 +158,13 @@ export const approach = {
 		},
 		{
 			slug: 'trauma-informed-practice',
+			image: {
+				base: '/images/approach-trauma-informed',
+				widths: [600, 1200],
+				width: 1200,
+				height: 800
+			},
+			alt: 'Dried earth cracked into plates, the fissures running deep between them',
 			title: 'Trauma-informed practice',
 			summary:
 				'Assuming that difficulty may have a history, and working in ways that do not repeat it.',
@@ -175,8 +194,8 @@ export const services = {
 			/** Verbatim from the previous site. */
 			summary:
 				'Drawing on extensive clinical experience, I offer 1:1 therapy using a range of creative, somatic and trauma-informed approaches to create a treatment plan based on your goals.',
-			image: { base: '/images/service-individual', widths: [400, 800], width: 800, height: 533 },
-			alt: 'A quiet, softly lit room set up for one-to-one therapy sessions',
+			image: { base: '/images/service-individual', widths: [400, 800], width: 800, height: 1067 },
+			alt: 'A small sculpture of clay, moss and seed heads nestled in the bark of a tree',
 			body: [
 				'One-to-one therapy is the foundation of my practice. Sessions run for fifty minutes, usually weekly at the same time, which gives the work a reliable rhythm — and that reliability tends to matter more than people expect.',
 				'We begin with an initial conversation about what has brought you, what you are hoping might change, and anything you have already tried. I will explain how I work and answer questions. There is no obligation to continue after that first conversation, and it is entirely reasonable to speak to more than one therapist before deciding. Fit matters more than credentials.',
@@ -197,8 +216,8 @@ export const services = {
 			/** Verbatim from the previous site. */
 			summary:
 				'Eye Movement Desensitisation Reprocessing Therapy (EMDR) is a proven, structured therapy that uses gentle guided eye movements to support your mind’s natural healing process.',
-			image: { base: '/images/service-emdr', widths: [400, 800], width: 800, height: 533 },
-			alt: 'Calm, still water — representing the settling process of EMDR therapy',
+			image: { base: '/images/service-emdr', widths: [400, 800], width: 800, height: 1067 },
+			alt: 'A soft, diffuse sunset, the light spreading through cloud',
 			body: [
 				'EMDR — Eye Movement Desensitisation and Reprocessing — is a structured therapy developed specifically for traumatic memory. It is recommended by NICE for post-traumatic stress disorder in adults, and it is among the more thoroughly researched trauma treatments available.',
 				'The working idea is that some memories do not get processed and filed in the ordinary way. Instead they stay raw and current, so that remembering feels less like recalling something over than reliving it. EMDR appears to help the brain complete that processing, so the memory becomes something that happened rather than something still happening.',
@@ -219,8 +238,8 @@ export const services = {
 			/** Verbatim from the previous site. */
 			summary:
 				'Ecotherapy takes place outdoors, using nature as a co-therapist to support emotional regulation, connection and healing.',
-			image: { base: '/images/service-ecotherapy', widths: [400, 800], width: 800, height: 533 },
-			alt: 'A woodland path, the kind of setting used for nature-based therapy sessions',
+			image: { base: '/images/service-ecotherapy', widths: [400, 800], width: 800, height: 1067 },
+			alt: 'Sticks laid out in a radiating pattern on grass scattered with small purple flowers',
 			body: [
 				'Ecotherapy moves the work into the living world rather than a consulting room. This is not therapy that happens to occur outside; the setting is part of the method.',
 				'Several things change when the work moves outdoors. Sitting face to face can be confronting, particularly for people who find eye contact difficult or who are approaching something shaming — walking side by side, attention on the path ahead, often makes speech easier. The body tends to settle in the presence of trees, water and open ground, which supports the nervous-system work described under somatic approaches. And the living world supplies its own metaphors: seasons, weather, decay and regrowth, all of which give shape to experiences that resist direct description.',
@@ -288,6 +307,7 @@ export const whoIWorkWith = {
 export const testimonials = {
 	heading: 'Testimonials',
 	image: { base: '/images/testimonials-bg', widths: [600, 1200], width: 1200, height: 675 },
+	imageAlt: 'The sea seen from a chalk cliff, low cloud lying along the horizon',
 	items: [
 		{
 			quote:

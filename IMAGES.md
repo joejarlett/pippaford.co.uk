@@ -2,9 +2,13 @@
 
 What the site needs, where each image appears, and the dimensions to supply.
 
-**Everything currently in `static/images/` is stock** carried over from the Squarespace
-site (the portrait excepted). Real photographs will do more for trust than anything else
-on the page — particularly for a practice people have to feel safe enough to contact.
+**Most slots now hold real photographs** supplied by Joe in August 2026 — beach, shingle,
+cracked earth, and nature-based creative work (a stick pattern, a catkin mandala, a clay
+sculpture on a tree). These are a substantial improvement on the stock they replaced,
+because they show work of the kind the site actually describes.
+
+Two exceptions remain, both noted below: the hero (the original Squarespace illustration,
+kept at Joe's request) and the portrait.
 
 ---
 
@@ -76,11 +80,12 @@ Abstract or natural texture. Should not compete with the quotes beside it.
 | `service-emdr`       | `/services/emdr`               | 400, 800 | Portrait 3:4 |
 | `service-ecotherapy` | `/services/ecotherapy`         | 400, 800 | Portrait 3:4 |
 
-All three are currently stock. They appear both as cards on the home and Therapy pages and
-in the sidebar of each service page.
+All three now hold real photographs — a clay sculpture on a tree, a diffuse sunset, and a
+radiating stick pattern in flowering grass. They appear as cards on the home and Therapy
+pages and in the sidebar of each service page.
 
-A photograph of the **actual space Pippa works in** would be worth more than all three
-stock images combined. For ecotherapy, a real location rather than generic woodland.
+Still worth having eventually: a photograph of the **actual space Pippa works in**, which
+would do more for trust than anything landscape-based.
 
 ---
 

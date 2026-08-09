@@ -25,7 +25,6 @@
 		<h1 class="reveal-load display text-4xl text-white sm:text-5xl md:text-[3.7rem]">
 			{hero.heading} - {hero.subheading}
 		</h1>
-		<p class="reveal-load mt-4 text-white/80">{site.deliveryModes}</p>
 	</div>
 </section>
 
@@ -119,7 +118,7 @@
 				widths={testimonials.image.widths}
 				width={testimonials.image.width}
 				height={testimonials.image.height}
-				alt=""
+				alt={testimonials.imageAlt}
 				sizes="(min-width: 768px) 50vw, 100vw"
 				class="h-full w-full object-cover"
 			/>
