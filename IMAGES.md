@@ -18,10 +18,15 @@ Supply the largest version you have — ideally JPEG or PNG straight from the ca
 pre-resized. Then generate the variants:
 
 ```sh
-# from the project root, for each width the slot needs
-magick source.jpg -resize "1400x>" -quality 82 -define webp:method=6 \
-  static/images/<name>-1400.webp
+# from the project root, for each width and height the slot needs.
+# `^` scales to *cover* the box; -extent then crops the overflow.
+magick source.jpg -auto-orient -resize "1200x800^" -gravity center -extent "1200x800" \
+  -quality 82 -define webp:method=6 static/images/<name>-1200.webp
 ```
+
+Use `-resize "1200x800^"` with `-extent`, not a bare `-resize`. Resizing to a larger box and
+then cropping the target size out of the middle zooms into the centre of the picture and
+throws away the edges.
 
 Then update the matching entry in `src/lib/content.ts` — each is an object of the form
 `{ base, widths, width, height }`, where `base` is the path without the width suffix and
@@ -80,8 +85,8 @@ Abstract or natural texture. Should not compete with the quotes beside it.
 | `service-emdr`       | `/services/emdr`               | 400, 800 | Portrait 3:4 |
 | `service-ecotherapy` | `/services/ecotherapy`         | 400, 800 | Portrait 3:4 |
 
-All three now hold real photographs — a clay sculpture on a tree, a diffuse sunset, and a
-radiating stick pattern in flowering grass. They appear as cards on the home and Therapy
+All three now hold real photographs — a shingle beach with white stones, a diffuse sunset,
+and a radiating stick pattern in flowering grass. They appear as cards on the home and Therapy
 pages and in the sidebar of each service page.
 
 Still worth having eventually: a photograph of the **actual space Pippa works in**, which

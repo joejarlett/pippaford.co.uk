@@ -112,13 +112,22 @@ export const approach = {
 	items: [
 		{
 			slug: 'dramatherapy',
-			image: {
-				base: '/images/approach-dramatherapy',
-				widths: [600, 1200],
-				width: 1200,
-				height: 800
-			},
-			alt: 'A seed head caught against a low sun, its outline dissolving into the light',
+			images: [
+				{
+					base: '/images/approach-dramatherapy',
+					widths: [600, 1200],
+					width: 1200,
+					height: 800,
+					alt: 'A watercolour and ink painting: dark brushed forms along the base beneath washes of pink, green and blue'
+				},
+				{
+					base: '/images/approach-dramatherapy-2',
+					widths: [600, 1200],
+					width: 1200,
+					height: 800,
+					alt: 'A small clay figure set into the bark of a tree, ringed with moss and seed heads'
+				}
+			],
 			title: 'Dramatherapy',
 			summary:
 				'Working through image, metaphor, story and play, so that difficult material can be approached at a safe distance.',
@@ -131,8 +140,15 @@ export const approach = {
 		},
 		{
 			slug: 'eco-depth-psychology',
-			image: { base: '/images/approach-eco-depth', widths: [600, 1200], width: 1200, height: 800 },
-			alt: 'Catkins and green berries arranged as a radiating mandala on wet ground',
+			images: [
+				{
+					base: '/images/approach-eco-depth',
+					widths: [600, 1200],
+					width: 1200,
+					height: 800,
+					alt: 'Catkins and green berries arranged as a radiating mandala on wet ground'
+				}
+			],
 			title: 'Eco-depth psychology',
 			summary:
 				'Taking seriously that human distress does not occur in isolation from the living world we are part of.',
@@ -145,8 +161,15 @@ export const approach = {
 		},
 		{
 			slug: 'somatic-approaches',
-			image: { base: '/images/approach-somatic', widths: [600, 1200], width: 1200, height: 800 },
-			alt: 'A hand resting on wet shingle at the edge of the sea, foam breaking around it',
+			images: [
+				{
+					base: '/images/approach-somatic',
+					widths: [600, 1200],
+					width: 1200,
+					height: 800,
+					alt: 'A hand resting on wet shingle at the edge of the sea, foam breaking around it'
+				}
+			],
 			title: 'Somatic approaches',
 			summary: 'Attending to the body and the nervous system, not only to thoughts and narrative.',
 			body: [
@@ -158,13 +181,15 @@ export const approach = {
 		},
 		{
 			slug: 'trauma-informed-practice',
-			image: {
-				base: '/images/approach-trauma-informed',
-				widths: [600, 1200],
-				width: 1200,
-				height: 800
-			},
-			alt: 'Dried earth cracked into plates, the fissures running deep between them',
+			images: [
+				{
+					base: '/images/approach-trauma-informed',
+					widths: [600, 1200],
+					width: 1200,
+					height: 800,
+					alt: 'Dried earth cracked into plates, the fissures running deep between them'
+				}
+			],
 			title: 'Trauma-informed practice',
 			summary:
 				'Assuming that difficulty may have a history, and working in ways that do not repeat it.',
@@ -195,7 +220,7 @@ export const services = {
 			summary:
 				'Drawing on extensive clinical experience, I offer 1:1 therapy using a range of creative, somatic and trauma-informed approaches to create a treatment plan based on your goals.',
 			image: { base: '/images/service-individual', widths: [400, 800], width: 800, height: 1067 },
-			alt: 'A small sculpture of clay, moss and seed heads nestled in the bark of a tree',
+			alt: 'White stones resting on a shingle beach, the sea and open sky beyond',
 			body: [
 				'One-to-one therapy is the foundation of my practice. Sessions run for fifty minutes, usually weekly at the same time, which gives the work a reliable rhythm — and that reliability tends to matter more than people expect.',
 				'We begin with an initial conversation about what has brought you, what you are hoping might change, and anything you have already tried. I will explain how I work and answer questions. There is no obligation to continue after that first conversation, and it is entirely reasonable to speak to more than one therapist before deciding. Fit matters more than credentials.',

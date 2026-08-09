@@ -50,15 +50,20 @@
 						{item.summary}
 					</p>
 
-					<Img
-						base={item.image.base}
-						widths={item.image.widths}
-						width={item.image.width}
-						height={item.image.height}
-						alt={item.alt}
-						sizes="(min-width: 768px) 18rem, 100vw"
-						class="mt-8 aspect-3/2 w-full object-cover"
-					/>
+					<!-- A section may carry more than one image; they stack in the column. -->
+					<div class="mt-8 space-y-4">
+						{#each item.images as image (image.base)}
+							<Img
+								base={image.base}
+								widths={image.widths}
+								width={image.width}
+								height={image.height}
+								alt={image.alt}
+								sizes="(min-width: 768px) 18rem, 100vw"
+								class="aspect-3/2 w-full object-cover"
+							/>
+						{/each}
+					</div>
 				</div>
 
 				<Prose paragraphs={item.body} tone={i % 2 === 0 ? 'light' : 'ink'} class="max-w-3xl" />
