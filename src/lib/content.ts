@@ -21,7 +21,7 @@ export const site = {
 	tagline: 'Creative Arts Psychotherapy',
 	title: 'Pippa Ford — Creative Arts Psychotherapy',
 	description:
-		'Online and telephone creative arts psychotherapy with Pippa Ford, HCPC-registered dramatherapist. Client-centred therapy integrating EMDR, somatic, creative and nature-based approaches for adults, children and young people, available UK-wide.',
+		'Online and telephone creative arts psychotherapy with Pippa Ford, HCPC-registered dramatherapist. Therapy shaped around you, drawing on EMDR, creative work, attention to the body and the natural world, for adults, children and young people anywhere in the UK.',
 	url: 'https://www.pippaford.co.uk',
 	email: 'pippaford76@gmail.com',
 
@@ -33,6 +33,9 @@ export const site = {
 	areaServed: 'United Kingdom',
 	deliveryModes: 'Online and telephone sessions, UK-wide',
 
+	// FOR PIPPA: `trainings` lists completed training only, so it omits the
+	// in-progress Eco-Depth Practitioner training named in the body copy.
+	// Deliberate or not, someone will notice the difference.
 	credentials: 'Pippa Ford BA Hons, Dramatherapy MA',
 	trainings: 'EMDR, Yoga & Mindfulness Therapy, Creative Clinical Supervision',
 	hcpc: 'AS14736'
@@ -68,6 +71,7 @@ export const about = {
 	/** Verbatim from the previous site. */
 	paragraphs: [
 		'As a creative arts psychotherapist, my practice is grounded in psychodynamic and humanistic frameworks, with a strong emphasis on trauma-informed care. I integrate creative, Jungian, IFS and somatic approaches as well as my training in yoga & mindfulness therapy and EMDR to support clients in accessing healing not just through insight, but through the body and the nervous system. My approach honours the complexity of each person’s story, drawing from depth-oriented frameworks and a relational, compassionate stance.',
+		// FOR PIPPA: "recently" came from the old site and will date. Consider a year.
 		'I offer clinical supervision as part of my practice and recently undertook a year’s training in creative clinical supervision.',
 		'I am also currently in training as an Eco-Depth Practitioner, weaving nature-based wisdom and ecological consciousness into the therapeutic space to support deeper connection, integration and transformation.'
 	],
@@ -78,21 +82,21 @@ export const about = {
 			heading: 'How I came to this work',
 			body: [
 				'I trained as a dramatherapist because I kept meeting people for whom talking alone was not enough. Some had no words yet for what had happened to them. Others had told their story so many times it had gone flat, rehearsed, held at arm’s length. The creative arts therapies offer another route in — through image, metaphor, movement, story and play — and often reach what conversation cannot.',
-				'Since qualifying I have worked across a range of settings, with adults, with children in primary and secondary schools, and with young people navigating difficulties that had not yet found language. That breadth has taught me that there is no single correct way to do this work. What helps one person feel safe enough to begin can feel intrusive to another.'
+				'Since qualifying I have worked across a range of settings: with adults, with children in primary and secondary schools, and with young people who were struggling with something they could not yet put into words. That breadth has taught me that there is no single correct way to do this work. What helps one person feel safe enough to begin can feel intrusive to the next.'
 			]
 		},
 		{
 			heading: 'How I work',
 			body: [
 				'I do not arrive with a fixed programme. We begin by finding out what you are hoping for, what has already been tried, and what pace feels manageable. From there I draw on whichever approaches seem to fit — and I will say plainly when I think something else, or someone else, would serve you better.',
-				'My training is integrative rather than single-model: psychodynamic and humanistic foundations, Jungian and Internal Family Systems perspectives, somatic and nervous-system work, yoga and mindfulness therapy, EMDR, and now eco-depth practice. In practice this means the work can move between talking, noticing what is happening in the body, creative exploration, and structured trauma processing, depending on what is needed.',
-				'What stays constant is the relationship. Depth-oriented work asks something of a person, and it is the quality of the therapeutic relationship — not the technique — that makes that possible.'
+				'My training is integrative rather than single-model: psychodynamic and humanistic foundations, Jungian and Internal Family Systems perspectives, somatic and nervous-system work, yoga and mindfulness therapy, EMDR, and now eco-depth practice. What that means for you is that a session can move between talking, noticing what is happening in your body, working with an image or an object, and structured work on a specific memory, depending on what is needed that day.',
+				'What stays constant is the relationship. Work that goes below the surface of a problem asks something of you, and it is the quality of the relationship between us — not the technique — that makes that possible.'
 			]
 		},
 		{
 			heading: 'Training and registration',
 			body: [
-				'I hold a BA (Hons) and an MA in Dramatherapy, and I am registered with the Health and Care Professions Council under number AS14736. HCPC registration is a legal requirement to practise as a dramatherapist in the UK and can be verified on their public register.',
+				'I hold a BA (Hons) and an MA in Dramatherapy, and I am registered with the Health and Care Professions Council under number AS14736. Registration is a legal requirement to practise as a dramatherapist in the UK, and you can check mine yourself on the HCPC’s public register.',
 				'My continuing training includes EMDR, yoga and mindfulness therapy, and a year’s training in creative clinical supervision. I am currently training as an Eco-Depth Practitioner. I hold a full DBS check and work within regular clinical supervision, as required of all registered practitioners.'
 			]
 		}
@@ -105,7 +109,7 @@ export const about = {
 
 export const approach = {
 	title: 'My approach',
-	lede: 'An integrative practice, working creatively across modalities in a person-centred way.',
+	lede: 'One practice drawing on several ways of working, put together to fit you rather than the other way round.',
 
 	items: [
 		{
@@ -221,9 +225,10 @@ export const services = {
 			image: { base: '/images/service-individual', widths: [400, 800], width: 800, height: 1067 },
 			alt: 'White stones resting on a shingle beach, the sea and open sky beyond',
 			body: [
-				'One-to-one therapy is the foundation of my practice. Sessions run for fifty minutes, usually weekly at the same time, which gives the work a reliable rhythm — and that reliability tends to matter more than people expect.',
+				// Session length is deliberately not stated here — see VOICE.md Decisions.
+				'One-to-one therapy is the foundation of my practice. Sessions are usually weekly, at the same time each week, which gives the work a reliable rhythm — and that reliability tends to matter more than people expect.',
 				'We begin with an initial conversation about what has brought you, what you are hoping might change, and anything you have already tried. I will explain how I work and answer questions. There is no obligation to continue after that first conversation, and it is entirely reasonable to speak to more than one therapist before deciding. Fit matters more than credentials.',
-				'From there the shape of the work depends on you. For some people it stays largely conversational, with creative or somatic work used occasionally. For others the creative work becomes central. Some come with a clearly defined difficulty; others arrive with a diffuse sense that something is not right, which is an equally valid place to start.',
+				'From there the shape of the work depends on you. It may stay largely conversational, with creative or body-based work used occasionally, or the creative work may become the centre of it. You might come with one clearly defined difficulty, or you might arrive knowing only that something is not right and unable to say what. That is an equally good place to start.',
 				'We review how things are going at regular intervals rather than drifting. If the work is not helping, I would rather know and either change approach or help you find someone better suited.'
 			],
 			suitedFor: [
@@ -237,15 +242,21 @@ export const services = {
 		{
 			slug: 'emdr',
 			title: 'EMDR',
-			/** Verbatim from the previous site. */
+			/**
+			 * Verbatim from the previous site.
+			 * FOR PIPPA: "proven" is an efficacy claim, and the ASA scrutinises that
+			 * wording on therapy sites. The body copy below already makes the
+			 * stronger and safer version of the same point (NICE-recommended for
+			 * PTSD in adults). Worth deciding whether "proven" earns its place.
+			 */
 			summary:
 				'Eye Movement Desensitisation Reprocessing Therapy (EMDR) is a proven, structured therapy that uses gentle guided eye movements to support your mind’s natural healing process.',
 			image: { base: '/images/service-emdr', widths: [400, 800], width: 800, height: 1067 },
 			alt: 'A soft, diffuse sunset, the light spreading through cloud',
 			body: [
 				'EMDR — Eye Movement Desensitisation and Reprocessing — is a structured therapy developed specifically for traumatic memory. It is recommended by NICE for post-traumatic stress disorder in adults, and it is among the more thoroughly researched trauma treatments available.',
-				'The working idea is that some memories do not get processed and filed in the ordinary way. Instead they stay raw and current, so that remembering feels less like recalling something over than reliving it. EMDR appears to help the brain complete that processing, so the memory becomes something that happened rather than something still happening.',
-				'Sessions involve bringing a memory to mind while following a repeated left-right movement or sound, in short sets, pausing between each to notice whatever has shifted. It is a strange procedure to describe and considerably less strange to do. You remain in control throughout, you are not hypnotised, and you do not have to narrate the memory in detail — which is a relief to many people.',
+				'The working idea is that some memories never get processed and filed away in the ordinary manner. They stay raw and current, so that remembering feels less like recalling something that is over and more like living through it again. EMDR appears to help the brain finish that processing, so the memory becomes something that happened rather than something still happening.',
+				'In a session you bring the memory to mind while following a repeated left-right movement or sound, in short sets, pausing after each one to notice whatever has shifted. It is a strange procedure to describe and considerably less strange to do. You stay in control throughout, you are not hypnotised, and you do not have to narrate the memory in detail — which is a relief to most people who ask.',
 				'EMDR is not a quick fix and it is not the right starting point for everyone. It follows a defined protocol that begins with preparation and stabilisation, and we do not move to processing until there is enough steadiness to make that safe. That preparation phase is not a delay before the real work; it is part of it.',
 				'EMDR can be delivered effectively online, using on-screen movement or sound in place of in-person cues.'
 			],
@@ -266,13 +277,13 @@ export const services = {
 			alt: 'Sticks laid out in a radiating pattern on grass scattered with small purple flowers',
 			body: [
 				'Ecotherapy brings the living world into the work rather than treating it as scenery. What matters is that the natural world is part of the method, not where the session happens to take place — this can be done outdoors, or indoors with natural materials and images to hand.',
-				'Several things change when we work this way. Sitting face to face can be confronting, particularly for people who find eye contact difficult or who are approaching something shaming — walking side by side, or working with something in your hands, often makes speech easier. The body tends to settle in the presence of trees, water and open ground, which supports the nervous-system work described under somatic approaches. And the living world supplies its own metaphors: seasons, weather, decay and regrowth, all of which give shape to experiences that resist direct description.',
-				'Sessions might involve walking and talking, periods of stillness and sensory attention, or work with what is present — landscape, weather, or natural materials brought into the room. The pace is generally slower than conventional talking therapy, and that slowness is deliberate.',
-				'Where we do work outdoors there are real practical considerations, and I would rather set them out plainly. An outdoor session cannot offer the same guaranteed privacy as a closed room, so we agree in advance how to handle being overheard or meeting someone you know. Weather, terrain, accessibility and physical comfort all need discussing beforehand. Ecotherapy is not suitable or appealing for everyone, and it is entirely reasonable to decline it.',
+				'Sitting face to face can be confronting, particularly if you find eye contact hard or you are approaching something you feel ashamed of. Walking side by side, or holding something while you speak, tends to make the words come more easily. The body settles in the presence of trees, water and open ground, which does a lot of the nervous-system work described under somatic approaches. And the living world lends us its own images — the seasons turning, weather passing through, things rotting down and growing back — which give shape to experiences that resist being said straight out.',
+				'A session might be walking and talking, or periods of stillness and paying attention to what you can hear and smell and feel, or working with whatever is to hand — the landscape, the weather, natural materials brought into the room. The pace is slower than conventional talking therapy, and the slowness is the point rather than a side effect.',
+				'Working outdoors has real practical limits and I would rather set them out plainly. An outdoor session cannot give you the same guaranteed privacy as a closed room, so we agree beforehand what to do if we are overheard or you meet someone you know. Weather, terrain, getting there and being physically comfortable all need talking through first. Ecotherapy does not suit or appeal to everyone. Saying no to it is an entirely reasonable thing to do.',
 				'If this way of working interests you, please ask when you get in touch and I will tell you honestly what is possible and how we might arrange it.'
 			],
 			suitedFor: [
-				'People who find sitting face to face in conversation difficult',
+				'Finding it hard to sit face to face in conversation',
 				'Anxiety and rumination that ease with movement',
 				'Climate grief and ecological distress',
 				'A sense of disconnection — from self, others, or place'
@@ -311,7 +322,7 @@ export const whoIWorkWith = {
 	groups: [
 		{
 			title: 'Adults',
-			body: 'Individual therapy for adults at any stage of life — whether you arrive with something specific in mind or with a more diffuse sense that something needs attention.'
+			body: 'Individual therapy for adults at any stage of life — whether you arrive with something specific in mind, or knowing only that something needs attention and not what.'
 		},
 		{
 			title: 'Children and young people',
@@ -358,7 +369,7 @@ export const faqs = {
 			/** Original question; answer expanded — CHECK: telephone was missing. */
 			question: 'How are sessions facilitated?',
 			answer:
-				'I offer secure video sessions and telephone sessions for clients across the UK. Video suits most people, but the telephone is a genuine alternative rather than a lesser option — some people speak more freely without being seen, and it removes any difficulty with screens or connection quality.'
+				'I offer secure video sessions and telephone sessions, wherever you are in the UK. Video suits most people, but the telephone is a genuine alternative rather than a lesser option — some people speak more freely without being seen, and it takes away any trouble with screens or a poor connection.'
 		},
 		{
 			/** Verbatim from the previous site. */
@@ -375,7 +386,7 @@ export const faqs = {
 		{
 			question: 'Do I need to be creative or artistic?',
 			answer:
-				'No, and it makes no difference at all. Creative approaches in therapy are not about producing anything good — nothing is judged, kept or shown to anyone. Many clients work largely through conversation and use creative methods only occasionally. Others find the creative work becomes central. Both are entirely normal.'
+				'No, and it makes no difference at all. Creative work in therapy is not about producing anything good — I do not judge it, nothing is kept, and nobody else sees it. You might work mostly through conversation and only occasionally reach for an image or an object, or you might find the creative work becomes the centre of it. Both are entirely normal.'
 		},
 		{
 			question: 'What happens in a first session?',
@@ -407,7 +418,7 @@ export const faqs = {
 export const contact = {
 	title: 'Get in touch',
 	heading: 'Get in touch',
-	body: 'I work with clients across the UK through secure online and telephone sessions. If you have a question, or would like to arrange an initial conversation, please get in touch by email.',
+	body: 'I work with people right across the UK, through secure online and telephone sessions. If you have a question, or you would like to arrange a first conversation, please email me.',
 	detail: [
 		'There is no need to explain everything in a first email. A sentence or two about what you are looking for is plenty, and we can take it from there.',
 		'Practical questions are welcome and expected — what sessions cost, how long they last, how often we would meet, whether I have availability. Please just ask. Nobody has ever asked me something unreasonable at this stage.',
