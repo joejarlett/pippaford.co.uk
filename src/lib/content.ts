@@ -136,7 +136,7 @@ export const approach = {
 			]
 		},
 		{
-			slug: 'eco-depth-psychology',
+			slug: 'ecotherapy',
 			link: { href: '/services/ecotherapy', label: 'More about ecotherapy' },
 			images: [
 				{
@@ -147,13 +147,14 @@ export const approach = {
 					alt: 'Catkins and green berries arranged as a radiating mandala on wet ground'
 				}
 			],
-			title: 'Eco-depth psychology',
+			title: 'Ecotherapy',
 			summary:
-				'Depth psychology combined with applied ecopsychology, treating psychological and ecological health as interdependent.',
+				'Therapy that works with the natural world as an active part of the process, indoors or out.',
 			body: [
-				'Eco-depth practice combines depth psychology with applied ecopsychology. Depth psychology attends to material below ordinary awareness — image, dream, inherited pattern. Ecopsychology holds that psychological health cannot be considered separately from the health of the wider living systems a person belongs to.',
-				'The approach proceeds from a One Health premise: individual wellbeing, community health and ecological vitality are treated as interdependent rather than distinct domains. Clinically, this widens the frame beyond the individual to include their relationship with the natural world, and establishes the natural world as an active participant in the therapeutic process rather than a setting for it.',
-				'It also provides a considered basis for working with ecological grief and climate-related distress. These presentations are increasingly common, particularly among younger people, and are properly understood as proportionate responses to material circumstances rather than as pathology.'
+				'Ecotherapy means therapy that works with the natural world as part of the process rather than as a backdrop to it. Often that happens outside — walking side by side, sitting somewhere quiet, working with whatever is there. It works indoors just as well, bringing natural materials, images and the turn of the season into the room. You do not need any particular relationship with nature to start, and it has nothing to do with being outdoorsy.',
+				'Several things tend to shift when the work is held this way. Walking alongside someone, or having something in your hands, is often easier than sitting opposite a person, especially when what you want to say is difficult. The body tends to settle in the presence of natural things, which supports the nervous-system work described further down this page. And the living world hands you images for experiences that resist plain description — things lying dormant, things breaking down, things coming back.',
+				'Eco-depth psychology is the framework underneath it. It brings together depth psychology, which attends to what sits below everyday awareness, and ecopsychology, which holds that our wellbeing is not separable from the health of the places we belong to. The name matters far less than what it means in practice: the natural world is treated as a genuine participant in the therapy, not a pleasant setting for it.',
+				'This is also where ecological grief and climate anxiety can be brought. Both are increasingly common, particularly among younger people, and both are better understood as proportionate responses to real circumstances than as something needing correction.'
 			]
 		},
 		{
@@ -232,7 +233,7 @@ export const services = {
 				'Grief and bereavement',
 				'Trauma, including experiences from childhood',
 				'Difficulties with self-worth, identity or life transitions',
-				'A sense that something is wrong that is hard to put into words'
+				'Navigating change, including ritual work to mark a transition'
 			]
 		},
 		{
@@ -262,18 +263,18 @@ export const services = {
 			title: 'Ecotherapy',
 			/** Verbatim from the previous site. */
 			summary:
-				'Ecotherapy takes place outdoors, using nature as a co-therapist to support emotional regulation, connection and healing.',
+				'Ecotherapy uses the natural world as a co-therapist to support emotional regulation, connection and healing — outdoors where that suits, and equally within the room.',
 			image: { base: '/images/service-ecotherapy', widths: [400, 800], width: 800, height: 1067 },
 			alt: 'Sticks laid out in a radiating pattern on grass scattered with small purple flowers',
 			body: [
-				'Ecotherapy moves the work into the living world rather than a consulting room. This is not therapy that happens to occur outside; the setting is part of the method.',
-				'Several things change when the work moves outdoors. Sitting face to face can be confronting, particularly for people who find eye contact difficult or who are approaching something shaming — walking side by side, attention on the path ahead, often makes speech easier. The body tends to settle in the presence of trees, water and open ground, which supports the nervous-system work described under somatic approaches. And the living world supplies its own metaphors: seasons, weather, decay and regrowth, all of which give shape to experiences that resist direct description.',
-				'Sessions might involve walking and talking, or periods of stillness and sensory attention in one place, or work with what is present — landscape, weather, materials found to hand. The pace is generally slower than indoor work, and that slowness is deliberate.',
-				'There are real practical considerations, and I would rather set them out plainly. Outdoor sessions cannot offer the same guaranteed privacy as a closed room, so we agree in advance how to handle being overheard or meeting someone you know. Weather, terrain, accessibility and physical comfort all need discussing beforehand. Ecotherapy is not suitable or appealing for everyone, and it is entirely reasonable to decline it.',
-				'I should also be straightforward that ecotherapy requires meeting in person, and my practice is currently online and by telephone. If this way of working interests you, please ask when you get in touch and I will tell you honestly what is possible.'
+				'Ecotherapy brings the living world into the work rather than treating it as scenery. What matters is that the natural world is part of the method, not where the session happens to take place — this can be done outdoors, or indoors with natural materials and images to hand.',
+				'Several things change when we work this way. Sitting face to face can be confronting, particularly for people who find eye contact difficult or who are approaching something shaming — walking side by side, or working with something in your hands, often makes speech easier. The body tends to settle in the presence of trees, water and open ground, which supports the nervous-system work described under somatic approaches. And the living world supplies its own metaphors: seasons, weather, decay and regrowth, all of which give shape to experiences that resist direct description.',
+				'Sessions might involve walking and talking, periods of stillness and sensory attention, or work with what is present — landscape, weather, or natural materials brought into the room. The pace is generally slower than conventional talking therapy, and that slowness is deliberate.',
+				'Where we do work outdoors there are real practical considerations, and I would rather set them out plainly. An outdoor session cannot offer the same guaranteed privacy as a closed room, so we agree in advance how to handle being overheard or meeting someone you know. Weather, terrain, accessibility and physical comfort all need discussing beforehand. Ecotherapy is not suitable or appealing for everyone, and it is entirely reasonable to decline it.',
+				'If this way of working interests you, please ask when you get in touch and I will tell you honestly what is possible and how we might arrange it.'
 			],
 			suitedFor: [
-				'People who find face-to-face conversation in a room difficult',
+				'People who find sitting face to face in conversation difficult',
 				'Anxiety and rumination that ease with movement',
 				'Climate grief and ecological distress',
 				'A sense of disconnection — from self, others, or place'
