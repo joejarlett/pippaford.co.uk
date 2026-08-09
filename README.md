@@ -58,6 +58,11 @@ Sampled from the live Squarespace site's computed styles, so the palette matches
 Typeface: **Instrument Serif** for headings, system sans stack for body — same pairing
 as the Squarespace build.
 
+## What to do next
+
+See **[SUGGESTIONS.md](SUGGESTIONS.md)** for a prioritised list — copy, local SEO,
+contact routes, and the legal pages needed before a form goes live.
+
 ## SEO notes
 
 Already in place: canonical URL, description, Open Graph + Twitter cards, `robots.txt`,

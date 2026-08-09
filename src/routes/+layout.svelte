@@ -21,7 +21,15 @@
 				url: site.url,
 				email: site.email,
 				image: `${site.url}/images/pippa-portrait-1200.webp`,
-				areaServed: { '@type': 'Country', name: 'United Kingdom' },
+				address: {
+					'@type': 'PostalAddress',
+					addressLocality: site.locality,
+					addressCountry: site.country
+				},
+				areaServed: [
+					{ '@type': 'City', name: site.locality },
+					{ '@type': 'AdministrativeArea', name: site.region }
+				],
 				availableLanguage: 'English',
 				founder: { '@id': `${site.url}/#pippa` },
 				makesOffer: services.items.map((s) => ({

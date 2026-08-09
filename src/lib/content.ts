@@ -10,11 +10,16 @@
 export const site = {
 	name: 'Pippa Ford',
 	tagline: 'Creative Arts Psychotherapy',
-	title: 'Pippa Ford — Creative Arts Psychotherapy',
+	title: 'Pippa Ford — Creative Arts Psychotherapy | Bristol',
 	description:
-		'Creative arts psychotherapy with Pippa Ford, HCPC-registered dramatherapist. Client-centred therapy integrating EMDR, somatic, creative and nature-based approaches for adults, children and young people.',
+		'Creative arts psychotherapy in Bristol with Pippa Ford, HCPC-registered dramatherapist. Client-centred therapy integrating EMDR, somatic, creative and nature-based approaches for adults, children and young people. Online sessions also available.',
 	url: 'https://www.pippaford.co.uk',
 	email: 'pippaford76@gmail.com',
+
+	/** Where Pippa practises. Local intent drives most therapy searches. */
+	locality: 'Bristol',
+	region: 'Bristol and surrounding areas',
+	country: 'GB',
 	credentials: 'Pippa Ford BA Hons, Dramatherapy MA',
 	trainings: 'EMDR, Yoga & Mindfulness Therapy, Creative Clinical Supervision',
 	hcpc: 'AS14736'
@@ -114,5 +119,5 @@ export const faqs = {
 
 export const contact = {
 	heading: 'Get in touch',
-	body: 'If you have a question, or would like to arrange an initial conversation, please get in touch by email.'
+	body: 'I practise in Bristol and the surrounding areas, and offer secure online sessions further afield. If you have a question, or would like to arrange an initial conversation, please get in touch by email.'
 } as const;
