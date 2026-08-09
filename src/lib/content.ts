@@ -148,13 +148,11 @@ export const approach = {
 				}
 			],
 			title: 'Ecotherapy',
-			summary:
-				'Therapy that works with the natural world as an active part of the process, indoors or out.',
+			summary: 'Working with the natural world as an active part of the therapy, indoors or out.',
 			body: [
-				'Ecotherapy means therapy that works with the natural world as part of the process rather than as a backdrop to it. Often that happens outside — walking side by side, sitting somewhere quiet, working with whatever is there. It works indoors just as well, bringing natural materials, images and the turn of the season into the room. You do not need any particular relationship with nature to start, and it has nothing to do with being outdoorsy.',
-				'Several things tend to shift when the work is held this way. Walking alongside someone, or having something in your hands, is often easier than sitting opposite a person, especially when what you want to say is difficult. The body tends to settle in the presence of natural things, which supports the nervous-system work described further down this page. And the living world hands you images for experiences that resist plain description — things lying dormant, things breaking down, things coming back.',
-				'Eco-depth psychology is the framework underneath it. It brings together depth psychology, which attends to what sits below everyday awareness, and ecopsychology, which holds that our wellbeing is not separable from the health of the places we belong to. The name matters far less than what it means in practice: the natural world is treated as a genuine participant in the therapy, not a pleasant setting for it.',
-				'This is also where ecological grief and climate anxiety can be brought. Both are increasingly common, particularly among younger people, and both are better understood as proportionate responses to real circumstances than as something needing correction.'
+				'Ecotherapy brings the natural world into the work as an active part of it rather than a backdrop. People often find they settle more quickly this way, speak more freely, and think more clearly than they manage sitting face to face in a room.',
+				'In practice that might mean walking and talking outdoors, or working indoors with natural things to hand — a stone, a piece of wood, a photograph of a landscape you know well. The living world lends us metaphor: things lying dormant, weather passing through, ground that holds. Those images give shape to experiences that are hard to say straight out.',
+				'I draw on the Natural Self Eco-Therapy model developed by the Natural Academy, which brings together person-centred therapy, Internal Family Systems and nature-based practice. Much of that work explores wholeness — noticing the different parts of yourself, including the ones in conflict with each other, and finding a way for them to belong together.'
 			]
 		},
 		{
