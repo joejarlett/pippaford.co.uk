@@ -1,0 +1,110 @@
+<script lang="ts">
+	import './layout.css';
+	import { page } from '$app/state';
+	import { faqs, services, site } from '$lib/content';
+	import Header from '$lib/components/Header.svelte';
+	import Footer from '$lib/components/Footer.svelte';
+
+	let { children } = $props();
+
+	const canonical = $derived(new URL(page.url.pathname, site.url).href);
+
+	/** Practitioner + service structured data, so search engines can build a rich result. */
+	const schema = {
+		'@context': 'https://schema.org',
+		'@graph': [
+			{
+				'@type': ['ProfessionalService', 'MedicalBusiness'],
+				'@id': `${site.url}/#practice`,
+				name: `${site.name} — ${site.tagline}`,
+				description: site.description,
+				url: site.url,
+				email: site.email,
+				image: `${site.url}/images/pippa-portrait.webp`,
+				areaServed: { '@type': 'Country', name: 'United Kingdom' },
+				availableLanguage: 'English',
+				founder: { '@id': `${site.url}/#pippa` },
+				makesOffer: services.items.map((s) => ({
+					'@type': 'Offer',
+					itemOffered: { '@type': 'Service', name: s.title, description: s.body }
+				}))
+			},
+			{
+				'@type': 'Person',
+				'@id': `${site.url}/#pippa`,
+				name: site.name,
+				jobTitle: 'Creative Arts Psychotherapist',
+				description: site.description,
+				email: site.email,
+				url: site.url,
+				image: `${site.url}/images/pippa-portrait.webp`,
+				hasCredential: [
+					{ '@type': 'EducationalOccupationalCredential', name: 'BA Hons' },
+					{ '@type': 'EducationalOccupationalCredential', name: 'Dramatherapy MA' },
+					{
+						'@type': 'EducationalOccupationalCredential',
+						name: 'HCPC registered',
+						identifier: site.hcpc
+					}
+				],
+				knowsAbout: [
+					'Creative arts psychotherapy',
+					'Dramatherapy',
+					'EMDR',
+					'Ecotherapy',
+					'Trauma-informed care',
+					'Clinical supervision'
+				]
+			},
+			{
+				'@type': 'FAQPage',
+				'@id': `${site.url}/#faqs`,
+				mainEntity: faqs.items.map((f) => ({
+					'@type': 'Question',
+					name: f.question,
+					acceptedAnswer: { '@type': 'Answer', text: f.answer }
+				}))
+			}
+		]
+	};
+</script>
+
+<svelte:head>
+	<title>{site.title}</title>
+	<meta name="description" content={site.description} />
+	<link rel="canonical" href={canonical} />
+
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+	<meta name="theme-color" content="#f7f5f1" />
+
+	<link
+		rel="preload"
+		as="font"
+		type="font/woff2"
+		href="/fonts/instrument-serif-latin.woff2"
+		crossorigin="anonymous"
+	/>
+
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content={site.title} />
+	<meta property="og:title" content={site.title} />
+	<meta property="og:description" content={site.description} />
+	<meta property="og:url" content={canonical} />
+	<meta property="og:image" content="{site.url}/images/pippa-portrait.webp" />
+	<meta property="og:locale" content="en_GB" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content={site.title} />
+	<meta name="twitter:description" content={site.description} />
+	<meta name="twitter:image" content="{site.url}/images/pippa-portrait.webp" />
+
+	{@html `<script type="application/ld+json">${JSON.stringify(schema)}</script>`}
+</svelte:head>
+
+<Header />
+
+<main id="main">
+	{@render children()}
+</main>
+
+<Footer />
