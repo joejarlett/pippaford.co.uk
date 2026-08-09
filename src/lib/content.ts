@@ -42,7 +42,6 @@ export const hero = {
 } as const;
 
 export const about = {
-	heading: 'About',
 	portrait: { base: '/images/pippa-portrait', widths: [600, 1200], width: 1200, height: 1599 },
 	portraitAlt: 'Pippa Ford, creative arts psychotherapist',
 	paragraphs: [

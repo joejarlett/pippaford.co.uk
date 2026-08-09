@@ -39,7 +39,8 @@
 			</div>
 		</div>
 
-		<p class="mt-14 border-t border-ink/20 pt-6 text-xs text-ink/70">
+		<!-- ink/80 measures 5.03:1 on periwinkle; ink/70 falls to 3.99:1 and fails AA. -->
+		<p class="mt-14 border-t border-ink/20 pt-6 text-xs text-ink/80">
 			© {year}
 			{site.name}. All rights reserved.
 		</p>
