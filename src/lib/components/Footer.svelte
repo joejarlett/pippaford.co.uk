@@ -4,35 +4,38 @@
 	const year = new Date().getFullYear();
 </script>
 
-<footer class="border-t border-line bg-shell">
+<!--
+	Periwinkle ground, as on the original. Text is ink rather than white:
+	white on this blue measures 2.2:1, which fails WCAG AA.
+-->
+<footer class="bg-periwinkle text-ink">
 	<div class="mx-auto max-w-6xl px-6 py-14 md:py-20">
 		<div class="grid gap-10 md:grid-cols-2 md:gap-16">
 			<div>
-				<p class="font-serif text-2xl text-ink md:text-3xl">{site.credentials}</p>
-				<dl class="mt-6 space-y-3 text-sm text-ink-soft">
+				<p class="text-lg font-semibold">{site.credentials}</p>
+				<dl class="mt-5 space-y-3 text-sm">
 					<div>
-						<dt class="font-medium text-ink">Trainings</dt>
-						<dd class="mt-1">{site.trainings}</dd>
+						<dt class="font-semibold">Trainings:</dt>
+						<dd class="mt-1 text-ink/90">{site.trainings}</dd>
 					</div>
 					<div>
-						<dt class="font-medium text-ink">HCPC registered</dt>
-						<dd class="mt-1">no. {site.hcpc}</dd>
+						<dt class="font-semibold">HCPC registered no. {site.hcpc}</dt>
 					</div>
 				</dl>
 			</div>
 
-			<div class="md:justify-self-end md:text-right">
-				<h2 class="font-serif text-2xl text-ink md:text-3xl">Email</h2>
+			<div>
+				<h2 class="display text-3xl md:text-4xl">Email</h2>
 				<a
 					href="mailto:{site.email}"
-					class="mt-3 inline-block text-lg text-ink-soft underline decoration-blush decoration-2 underline-offset-4 transition-colors hover:text-ink"
+					class="mt-2 inline-block font-serif text-2xl underline decoration-1 underline-offset-4 transition-opacity hover:opacity-70 md:text-3xl"
 				>
 					{site.email}
 				</a>
 			</div>
 		</div>
 
-		<p class="mt-14 border-t border-line pt-6 text-xs text-ink-faint">
+		<p class="mt-14 border-t border-ink/20 pt-6 text-xs text-ink/70">
 			© {year}
 			{site.name}. All rights reserved.
 		</p>

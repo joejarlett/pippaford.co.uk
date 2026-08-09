@@ -4,17 +4,18 @@
 	interface Props {
 		id?: string;
 		label?: string;
-		tone?: 'shell' | 'mist' | 'ink';
+		/** Matches the three grounds used on the original site. */
+		tone?: 'mist' | 'ink' | 'periwinkle';
 		class?: string;
 		children: Snippet;
 	}
 
-	let { id, label, tone = 'shell', class: klass = '', children }: Props = $props();
+	let { id, label, tone = 'mist', class: klass = '', children }: Props = $props();
 
 	const tones = {
-		shell: 'bg-shell text-ink',
 		mist: 'bg-mist text-ink',
-		ink: 'bg-ink text-shell'
+		ink: 'bg-ink text-white',
+		periwinkle: 'bg-periwinkle text-white'
 	} as const;
 </script>
 

@@ -33,12 +33,12 @@ export const hero = {
 	subheading: 'Creative Arts Psychotherapy',
 	intro:
 		'With years of clinical experience across diverse settings, I offer client-centred therapy that integrates EMDR, somatic, creative and nature-based approaches, in a safe, compassionate space for growth and healing.',
-	image: '/images/hero-bg.webp'
+	image: { base: '/images/hero-bg', widths: [800, 1400, 1792], width: 1792, height: 1024 }
 } as const;
 
 export const about = {
 	heading: 'About',
-	portrait: '/images/pippa-portrait.webp',
+	portrait: { base: '/images/pippa-portrait', widths: [600, 1200], width: 1200, height: 1599 },
 	portraitAlt: 'Pippa Ford, creative arts psychotherapist',
 	paragraphs: [
 		'As a creative arts psychotherapist, my practice is grounded in psychodynamic and humanistic frameworks, with a strong emphasis on trauma-informed care. I integrate creative, Jungian, IFS and somatic approaches as well as my training in yoga & mindfulness therapy and EMDR to support clients in accessing healing not just through insight, but through the body and the nervous system. My approach honours the complexity of each person’s story, drawing from depth-oriented frameworks and a relational, compassionate stance.',
@@ -49,7 +49,7 @@ export const about = {
 
 export const testimonials = {
 	heading: 'Testimonials',
-	background: '/images/testimonials-bg.webp',
+	image: { base: '/images/testimonials-bg', widths: [600, 1200], width: 1200, height: 675 },
 	items: [
 		{
 			quote:
@@ -71,21 +71,21 @@ export const services = {
 			slug: 'individual-therapy',
 			title: 'Individual Therapy',
 			body: 'Drawing on extensive clinical experience, I offer 1:1 therapy using a range of creative, somatic and trauma-informed approaches to create a treatment plan based on your goals.',
-			image: '/images/service-individual.webp',
+			image: { base: '/images/service-individual', widths: [400, 800], width: 800, height: 533 },
 			alt: 'A quiet, softly lit room set up for one-to-one therapy sessions'
 		},
 		{
 			slug: 'emdr',
 			title: 'EMDR',
 			body: 'Eye Movement Desensitisation Reprocessing Therapy (EMDR) is a proven, structured therapy that uses gentle guided eye movements to support your mind’s natural healing process.',
-			image: '/images/service-emdr.webp',
+			image: { base: '/images/service-emdr', widths: [400, 800], width: 800, height: 533 },
 			alt: 'Calm, still water — representing the settling process of EMDR therapy'
 		},
 		{
 			slug: 'ecotherapy',
 			title: 'Ecotherapy',
 			body: 'Ecotherapy takes place outdoors, using nature as a co-therapist to support emotional regulation, connection and healing.',
-			image: '/images/service-ecotherapy.webp',
+			image: { base: '/images/service-ecotherapy', widths: [400, 800], width: 800, height: 533 },
 			alt: 'A woodland path, the kind of setting used for nature-based therapy sessions'
 		}
 	]

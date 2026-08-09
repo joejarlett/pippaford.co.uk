@@ -20,7 +20,7 @@
 				description: site.description,
 				url: site.url,
 				email: site.email,
-				image: `${site.url}/images/pippa-portrait.webp`,
+				image: `${site.url}/images/pippa-portrait-1200.webp`,
 				areaServed: { '@type': 'Country', name: 'United Kingdom' },
 				availableLanguage: 'English',
 				founder: { '@id': `${site.url}/#pippa` },
@@ -37,7 +37,7 @@
 				description: site.description,
 				email: site.email,
 				url: site.url,
-				image: `${site.url}/images/pippa-portrait.webp`,
+				image: `${site.url}/images/pippa-portrait-1200.webp`,
 				hasCredential: [
 					{ '@type': 'EducationalOccupationalCredential', name: 'BA Hons' },
 					{ '@type': 'EducationalOccupationalCredential', name: 'Dramatherapy MA' },
@@ -90,13 +90,13 @@
 	<meta property="og:title" content={site.title} />
 	<meta property="og:description" content={site.description} />
 	<meta property="og:url" content={canonical} />
-	<meta property="og:image" content="{site.url}/images/pippa-portrait.webp" />
+	<meta property="og:image" content="{site.url}/images/pippa-portrait-1200.webp" />
 	<meta property="og:locale" content="en_GB" />
 
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content={site.title} />
 	<meta name="twitter:description" content={site.description} />
-	<meta name="twitter:image" content="{site.url}/images/pippa-portrait.webp" />
+	<meta name="twitter:image" content="{site.url}/images/pippa-portrait-1200.webp" />
 
 	{@html `<script type="application/ld+json">${JSON.stringify(schema)}</script>`}
 </svelte:head>
