@@ -82,8 +82,18 @@
 	<meta name="description" content={site.description} />
 	<link rel="canonical" href={canonical} />
 
+	<!--
+		The "P" is the Instrument Serif glyph converted to a vector path, so it
+		renders identically everywhere rather than depending on the viewer having
+		a particular serif installed. The .ico carries 16/32/48 raster sizes drawn
+		from a slightly heavier variant, because the typeface's hairlines drop out
+		below about 32px.
+	-->
 	<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-	<meta name="theme-color" content="#f7f5f1" />
+	<link rel="icon" href="/favicon-96.png" type="image/png" sizes="96x96" />
+	<link rel="alternate icon" href="/favicon.ico" sizes="16x16 32x32 48x48" />
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+	<meta name="theme-color" content="#171d3a" />
 
 	<link
 		rel="preload"
