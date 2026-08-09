@@ -105,9 +105,9 @@ export const about = {
 
 export const approach = {
 	title: 'My approach',
-	lede: 'Four strands shape how I work. They are not separate methods so much as different ways of paying attention, and most sessions draw on more than one.',
+	lede: 'Four things shape how I work. They are not really separate methods, more four different ways of paying attention — and most sessions draw on more than one of them.',
 	intro:
-		'People often want to know what a therapist actually does — what the words on a website translate into once you are in the room, or on the call. What follows is an honest account of the traditions I draw on and what each contributes.',
+		'People usually want to know what a therapist actually does. Not the label, but what the words on a website turn into once you are in the room, or on the call. So here is an honest account of what I draw on and what each part of it brings.',
 
 	items: [
 		{
@@ -130,12 +130,12 @@ export const approach = {
 			],
 			title: 'Dramatherapy',
 			summary:
-				'Working through image, metaphor, story and play, so that difficult material can be approached at a safe distance.',
+				'Using image, metaphor, story and play, so you can get at the difficult thing from a bearable distance.',
 			body: [
-				'Dramatherapy is a recognised allied health profession in the UK, regulated by the HCPC. It uses the tools of drama and story — character, role, metaphor, image, play, movement — as the medium of therapy rather than as a diversion from it.',
-				'Its central idea is often called *aesthetic distance*. Approaching something painful directly can be overwhelming. Approaching it through a story, an image or a character creates just enough separation to make it bearable, while keeping it close enough to matter. A child who cannot say what frightens them at home may show it in play. An adult who cannot describe grief may find an image for it, and find that the image speaks.',
-				'This is not performance, and it requires no acting ability or artistic skill whatsoever. It is a way of externalising something so that we can both look at it together, rather than you having to hold it alone and unseen. Some people work almost entirely in words and use metaphor only occasionally; others find that the creative work carries most of the weight. Both are legitimate.',
-				'Working online does not preclude this. Image, story, writing, objects to hand, and drawing all translate well to video, and there is something about doing this work from your own space that some people find steadying.'
+				'Dramatherapy is a recognised allied health profession here in the UK, regulated by the HCPC — which is a very formal way of saying that I use story and drama as the actual therapy, not as a warm-up to it. Character, role, metaphor, image, play, movement. That is the material we work in.',
+				'The idea at the heart of it is something called aesthetic distance. Go straight at something painful and it can simply flatten you. Come at it through a story, or an image, or a character, and you get a bit of separation — far enough away to be bearable, close enough to still matter. So a child who cannot tell you what is frightening at home will often show you in play. And an adult who cannot find words for grief will find an image for it, and then the image does the talking.',
+				'None of this is performance, by the way. You do not need to be able to act and you do not need to be any good at art — genuinely, it makes no difference at all. What we are doing is getting the thing out where we can both look at it, instead of you carrying it round alone and unseen. Some people work almost entirely in words and only reach for metaphor now and then. For others the creative work ends up carrying most of the weight. Both are completely fine.',
+				'And none of it stops working online. Image, story, writing, drawing, whatever objects you have to hand — it all translates to video far better than people expect. Some people find it steadier, in fact, doing this from their own space.'
 			]
 		},
 		{
@@ -151,12 +151,12 @@ export const approach = {
 			],
 			title: 'Eco-depth psychology',
 			summary:
-				'Taking seriously that human distress does not occur in isolation from the living world we are part of.',
+				'Taking seriously that none of us struggles in isolation from the living world we belong to.',
 			body: [
-				'Depth psychology attends to what lies beneath ordinary awareness — the dreams, images, patterns and inherited stories that shape a life without being chosen. Ecopsychology holds that the human psyche is not sealed off from the rest of the living world, and that the modern experience of separation from it carries a psychological cost.',
-				'Eco-depth practice brings these together. It treats the natural world not as scenery or as a wellbeing intervention, but as a genuine participant in the work — what is sometimes described as nature as co-therapist. Attention widens beyond the individual to include the relationships a person is embedded in, including the more-than-human ones.',
-				'In practice this can mean working with the sense of self as ecological rather than isolated; noticing how the body settles in the presence of weather, water, trees or open ground; and using the cycles evident in the living world — decay, dormancy, regeneration — as ways of thinking about periods in a life that feel stuck or finished.',
-				'It also means having somewhere to put climate grief and ecological anxiety. These are increasingly common, particularly among younger people, and they are frequently dismissed as irrational or catastrophising. They are neither. They are proportionate responses to a real situation, and they raise genuinely existential questions about meaning, mortality and what it is reasonable to hope for. Therapy cannot resolve those questions. It can stop someone carrying them alone.'
+				'Depth psychology is interested in what is going on underneath the everyday — the dreams, the images, the patterns, the stories you inherited without ever choosing them. Ecopsychology adds something to that: the idea that we are not sealed off from the living world, and that the modern habit of living as though we are costs us something psychologically.',
+				'Eco-depth practice puts those two together. Nature is not scenery here, and it is not a wellbeing add-on — it is a genuine participant in the work. Nature as co-therapist, some people call it. So the attention widens out beyond just you, to everything you are bound up with, including the more-than-human.',
+				'In practice that might mean working with a sense of yourself as ecological rather than islanded. Noticing how your body settles near weather, water, trees, open ground. Or leaning into the cycles that are going on out there anyway — decay, dormancy, regeneration — as a way of thinking about a stretch of life that feels stuck, or finished.',
+				'It also means there is somewhere to put climate grief and ecological anxiety. I see more of this every year, particularly in younger people, and it gets dismissed constantly as irrational or catastrophising. It is neither. It is a proportionate response to a real situation, and it opens up genuinely existential questions — meaning, mortality, what it is reasonable to hope for. Therapy cannot answer those. What it can do is stop you carrying them on your own.'
 			]
 		},
 		{
@@ -171,12 +171,13 @@ export const approach = {
 				}
 			],
 			title: 'Somatic approaches',
-			summary: 'Attending to the body and the nervous system, not only to thoughts and narrative.',
+			summary:
+				'Paying attention to the body and the nervous system, not just to thoughts and story.',
 			body: [
-				'A great deal of what we carry is held in the body rather than in memory as we usually think of it. Tension that never quite releases; a startle response that fires at nothing; exhaustion that sleep does not touch; the sense of being braced against something that is no longer there.',
-				'Somatic work attends to this directly. It involves slowing down enough to notice sensation — tightness, temperature, restlessness, the impulse to move or to withdraw — and treating those signals as meaningful rather than as noise to be talked over. Much of the time we are working with the nervous system’s regulation: how readily it moves into alarm, and what helps it settle.',
-				'This is where my training in yoga and mindfulness therapy comes in, though it is not a yoga class. It is closer to learning the particular signals of your own body, and building some capacity to influence them, so that strong feeling becomes something you can stay present to rather than something that takes you over.',
-				'Pace matters enormously here. Going too quickly into bodily experience can itself be destabilising, particularly for people with trauma histories. We work at a speed that keeps you within what you can tolerate, and you set that pace, not me.'
+				'A great deal of what we carry is not stored as memory in the way we usually picture memory. It is in the body. The tension that never quite lets go, the startle response that fires at nothing, the tiredness that sleep does not touch, the sense of being braced against something that stopped happening years ago.',
+				'Somatic work goes at that directly. It means slowing right down and noticing what is actually happening — tightness, temperature, restlessness, the urge to move or to get out of the room — and treating all of that as information rather than background noise. Much of the time we are working with your nervous system: how quickly it tips into alarm, and what genuinely helps it settle again.',
+				'This is where my yoga and mindfulness therapy training comes in, though I should say plainly that it is not a yoga class. It is closer to getting to know the particular signals your own body sends, and building a bit of capacity to shift them, so that a strong feeling becomes something you can stay present to instead of something that takes you over.',
+				'Pace really matters here. Going too fast into bodily experience can be destabilising in itself, especially where there is trauma in the picture. So we work at a speed that keeps you inside what you can actually tolerate. And you set that pace, not me.'
 			]
 		},
 		{
@@ -192,12 +193,12 @@ export const approach = {
 			],
 			title: 'Trauma-informed practice',
 			summary:
-				'Assuming that difficulty may have a history, and working in ways that do not repeat it.',
+				'Assuming that what you are struggling with has a history, and working in a way that does not repeat it.',
 			body: [
-				'Trauma-informed practice is not a technique. It is a stance that runs underneath everything else, and it starts from a shift in the question — from *what is wrong with this person* to *what has happened to this person, and what did they have to do to survive it*.',
-				'Read that way, a great many behaviours that look like problems turn out to be adaptations. Hypervigilance made sense somewhere. Shutting down made sense somewhere. Difficulty trusting a therapist makes sense if trust has previously been dangerous. The work is not to strip these away but to understand what they were for, and to find out whether they are still needed.',
-				'In practice this means several things. That you retain choice and control over the pace and direction of the work, because the loss of both is often central to what happened. That I explain what I am suggesting and why, rather than working on you. That we build enough stability before approaching difficult material, rather than plunging into the story on the assumption that telling it is automatically healing — it is not, and it can retraumatise.',
-				'It also means paying attention to my own responses and holding this work in regular supervision, which is a professional requirement and a genuine safeguard rather than a formality.'
+				'Trauma-informed practice is not a technique. It is a stance that sits underneath everything else, and it starts by changing the question. Not what is wrong with this person. What happened to them, and what did they have to do to get through it?',
+				'Ask it that way round and a great deal of what looks like a problem turns out to be an adaptation. Hypervigilance made sense somewhere. Shutting down made sense somewhere. Finding it hard to trust a therapist makes complete sense if trusting people has gone badly before. So the work is not to strip those things out. It is to understand what they were for, and then to work out together whether you still need them.',
+				'In practice that means a few things. You keep choice and control over the pace and the direction, because losing both is so often part of what happened in the first place. I will tell you what I am suggesting and why, rather than doing something to you. And we build enough steadiness before going anywhere near the hard material — because telling the story is not automatically healing. It can retraumatise, and I would rather say that plainly than pretend otherwise.',
+				'It also means I pay attention to what comes up in me, and that I take this work to regular supervision. That is a professional requirement, but it is not a box to tick. It is one of the things that keeps you safe.'
 			]
 		}
 	]
