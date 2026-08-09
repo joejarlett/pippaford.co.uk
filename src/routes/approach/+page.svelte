@@ -66,7 +66,21 @@
 					</div>
 				</div>
 
-				<Prose paragraphs={item.body} tone={i % 2 === 0 ? 'light' : 'ink'} class="max-w-3xl" />
+				<div class="max-w-3xl">
+					<Prose paragraphs={item.body} tone={i % 2 === 0 ? 'light' : 'ink'} />
+
+					<!-- Somewhere to go for a reader convinced by this section. -->
+					<a
+						href={item.link.href}
+						class="mt-8 inline-block text-sm underline decoration-2 underline-offset-4 transition-opacity hover:opacity-70 {i %
+							2 ===
+						0
+							? 'text-blush decoration-blush/50'
+							: 'text-ink decoration-blush'}"
+					>
+						{item.link.label}
+					</a>
+				</div>
 			</div>
 		</div>
 	</section>

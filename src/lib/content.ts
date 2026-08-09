@@ -112,6 +112,7 @@ export const approach = {
 	items: [
 		{
 			slug: 'dramatherapy',
+			link: { href: '/services/individual-therapy', label: 'How this works in one-to-one therapy' },
 			images: [
 				{
 					base: '/images/approach-dramatherapy',
@@ -133,13 +134,14 @@ export const approach = {
 				'Using image, metaphor, story and play, so you can get at the difficult thing from a bearable distance.',
 			body: [
 				'Dramatherapy is a recognised allied health profession here in the UK, regulated by the HCPC — which is a very formal way of saying that I use story and drama as the actual therapy, not as a warm-up to it. Character, role, metaphor, image, play, movement. That is the material we work in.',
-				'The idea at the heart of it is something called aesthetic distance. Go straight at something painful and it can simply flatten you. Come at it through a story, or an image, or a character, and you get a bit of separation — far enough away to be bearable, close enough to still matter. So a child who cannot tell you what is frightening at home will often show you in play. And an adult who cannot find words for grief will find an image for it, and then the image does the talking.',
+				'Go straight at something painful and it can simply flatten you. Come at it through a story, or an image, or a character, and you get a bit of separation — far enough away to be bearable, close enough to still matter. So a child who cannot tell you what is frightening at home will often show you in play. And an adult who cannot find words for grief will find an image for it, and then the image does the talking. Therapists call that aesthetic distance.',
 				'None of this is performance, by the way. You do not need to be able to act and you do not need to be any good at art — genuinely, it makes no difference at all. What we are doing is getting the thing out where we can both look at it, instead of you carrying it round alone and unseen. Some people work almost entirely in words and only reach for metaphor now and then. For others the creative work ends up carrying most of the weight. Both are completely fine.',
 				'And none of it stops working online. Image, story, writing, drawing, whatever objects you have to hand — it all translates to video far better than people expect. Some people find it steadier, in fact, doing this from their own space.'
 			]
 		},
 		{
 			slug: 'eco-depth-psychology',
+			link: { href: '/services/ecotherapy', label: 'More about ecotherapy' },
 			images: [
 				{
 					base: '/images/approach-eco-depth',
@@ -153,14 +155,15 @@ export const approach = {
 			summary:
 				'Taking seriously that none of us struggles in isolation from the living world we belong to.',
 			body: [
-				'Depth psychology is interested in what is going on underneath the everyday — the dreams, the images, the patterns, the stories you inherited without ever choosing them. Ecopsychology adds something to that: the idea that we are not sealed off from the living world, and that the modern habit of living as though we are costs us something psychologically.',
+				'Depth psychology is interested in what is going on underneath the everyday — the dreams, the images, the patterns, the stories you inherited without ever choosing them. Ecopsychology adds one more thing: we are not sealed off from the living world, and living as though we are costs us something. You already know this, incidentally. It is why a week indoors under strip lighting feels different from an hour outside, and why that difference is not trivial.',
 				'Eco-depth practice puts those two together. Nature is not scenery here, and it is not a wellbeing add-on — it is a genuine participant in the work. Nature as co-therapist, some people call it. So the attention widens out beyond just you, to everything you are bound up with, including the more-than-human.',
 				'In practice that might mean working with a sense of yourself as ecological rather than islanded. Noticing how your body settles near weather, water, trees, open ground. Or leaning into the cycles that are going on out there anyway — decay, dormancy, regeneration — as a way of thinking about a stretch of life that feels stuck, or finished.',
-				'It also means there is somewhere to put climate grief and ecological anxiety. I see more of this every year, particularly in younger people, and it gets dismissed constantly as irrational or catastrophising. It is neither. It is a proportionate response to a real situation, and it opens up genuinely existential questions — meaning, mortality, what it is reasonable to hope for. Therapy cannot answer those. What it can do is stop you carrying them on your own.'
+				'It also means there is somewhere to put climate grief and ecological anxiety. I see more of this every year, particularly in younger people, and they are usually told they are catastrophising, or being irrational. They are not. They are responding in proportion to something that is actually happening, and it throws up real questions about meaning, about mortality, about what it is reasonable to hope for. Therapy cannot answer those questions. What it can do is stop you carrying them on your own.'
 			]
 		},
 		{
 			slug: 'somatic-approaches',
+			link: { href: '/services/individual-therapy', label: 'More about one-to-one therapy' },
 			images: [
 				{
 					base: '/images/approach-somatic',
@@ -182,6 +185,7 @@ export const approach = {
 		},
 		{
 			slug: 'trauma-informed-practice',
+			link: { href: '/services/emdr', label: 'More about EMDR for trauma' },
 			images: [
 				{
 					base: '/images/approach-trauma-informed',
